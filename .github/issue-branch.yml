@@ -26,4 +26,4 @@ branches:
   - label: '*'
     skip: true
 
-commentMessage: "Branch `${branchName}` created! \n\n**For NEW repos**, clone with:\n> `git fetch && git checkout --track origin/${branchName}`\n\n**For features, bugfixes:** Rebase `main` branch changes with:\n> `git checkout ${branchName} && git rebase main`\n\n**For hotfixes:** Rebase `stable` branch changes with:\n> `git checkout ${branchName} && git rebase stable`\n\nLearn more about [git branching](https://github.com/bytelaunch/project-development-process/wiki/git-branching)..."
+commentMessage: "Branch `${branchName}` created! \n\nClone with:\n> `git fetch && git checkout --track origin/${branchName}`\n\nNeed to [rebase](https://git-scm.com/book/en/v2/Git-Branching-Rebasing)?\n\n**For features, bugfixes:** Rebase `main` branch changes with:\n> `git checkout ${branchName} && git rebase main`\n\n**For hotfixes:** Rebase `stable` branch changes with:\n> `git checkout ${branchName} && git rebase stable`\n\nLearn more about [git branching](https://github.com/bytelaunch/project-development-process/wiki/git-branching)..."
