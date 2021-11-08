@@ -29,7 +29,7 @@ autoCloseIssue: true
 gitSafeReplacementChar: '-'
 
 commentMessage: >
-  Branch ${branchName} created! Clone with:
-  👉 `git fetch && git checkout --track origin/${branchName}`
-  Rebase `develop` branch changes with:
+  Branch ${branchName} created! Clone with:\n
+  👉 `git fetch && git checkout --track origin/${branchName}`\n\n
+  Rebase `develop` branch changes with:\n
   👉 `git checkout ${branchName} && git rebase develop`
