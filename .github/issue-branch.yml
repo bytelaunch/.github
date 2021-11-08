@@ -1,6 +1,7 @@
 # https://github.com/robvanderleek/create-issue-branch
 #mode: chatops
-branchName: '${issue.number}-${issue.title}'
+#branchName: '${issue.number}-${issue.title}'
+branchName: full
 silent: false
 autoCloseIssue: true
 gitSafeReplacementChar: '-'
