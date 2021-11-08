@@ -6,3 +6,9 @@ branchName: '${issue.number}-${issue.title}'
 silent: false
 autoCloseIssue: true
 gitSafeReplacementChar: '-'
+
+commentMessage: >
+  Branch ${branchName} created! Clone with:
+  `git fetch && git checkout --track origin/${branchName}`
+  Rebase `develop` branch changes with:
+  `git checkout ${branchName} && git rebase develop`
